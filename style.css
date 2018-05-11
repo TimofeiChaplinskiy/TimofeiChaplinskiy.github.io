@@ -1,0 +1,389 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+.wrapper {
+	min-width: 800px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.container {
+    width: 940px;
+	margin: 0 auto ;
+
+}
+#header {
+	position: absolute;
+	top: 20px;
+	padding: 20px 0;
+
+	width: 100%;
+}
+.logo{
+	float: left;
+}
+.nav{
+	float: right;
+	padding: 5px;
+}
+.nav a {
+	text-transform: uppercase;
+	font: 14px Arial,sans-serif;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+
+
+}
+.nav li{
+	float: left;
+	margin-right: 40px;
+}
+.nav a:hover { color: #fed136}
+.nav li:last-child {margin-right:  0px}
+#home {
+    height: 350px;
+	padding-top: 270px;
+	text-align: center;
+	color: #ffffff;
+	background: #22021d url("images/home.jpeg") no-repeat center bottom;
+	background-size: cover;
+}
+
+#home h3{
+	margin-bottom: 40px ;
+	font: 40px/40px sans-serif;
+
+}
+#home h1{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font: 75px/75px sans-serif;
+
+}
+.btn {
+	display: inline-block;
+	padding: 20px 30px;
+	font: bold 24px/24px sans-serif ;
+	text-transform: uppercase;
+	background: #fed136;
+	color: white;
+	border: 0px;
+	cursor: pointer;
+
+}
+.btn:hover { background: #FE8916;}
+.box{
+	padding: 90px 0 ;
+
+}
+#services{
+	text-align: center;
+}
+h2.title{
+	margin-bottom: 8px;
+	text-transform: uppercase;
+	font: bold 40px/40px Arial, sans-serif;
+	color: #222;
+
+}
+h5.title{
+	margin-bottom: 8px;
+	font: bold 21px/21px Arial, sans-serif;
+	color: #222;
+}
+.descr {
+    font-size: 16px;
+	color: #777;
+	margin-bottom: 10px;
+}
+.servis_wrapp
+ {
+	padding-top: 40px;
+}
+.portfolio_wrapp {
+	padding-top: 70px;
+}
+.servis-item p {
+font-size: 18px;
+	color: #777;
+
+}
+.servis-item {
+	float: left;
+	width: 31.2%;
+	line-height: 24px;
+	padding: 90px 10px 0;
+}
+
+.commerce{
+	background:  url("images/comerce.png") no-repeat center top;
+}
+.responsive{
+	background:  url("images/ResWeb.png") no-repeat center top;
+}
+.security{
+	background:  url("images/WebSec.png") no-repeat center top;
+}
+
+#portfolio {
+	height: 1040px;
+ text-align: center;
+	margin-top: 180px;
+	background: #f7f7f7;
+}
+.portfolio-item {
+	float: left;
+	width: 31%;
+	margin-right: 3.5%;
+	margin-bottom: 50px;
+	background: white;
+
+}
+.portfolio-item:nth-child(3n){
+margin-right: 0;
+
+}
+.p-item-footer{
+
+	padding: 30px 20px;
+}
+.p-item-footer h5.title {
+	margin-bottom: 4px;
+
+}
+#about {  text-align: center;  }
+
+.about-text{
+	width: 35%;
+}
+.about-text h5 {
+	line-height: 24px;
+}
+.about-text p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #777;
+}
+.about-img {
+	width: 30%;
+}
+.about-img:after{
+
+    content: '';
+	display: block;
+	height: 94px;
+	width: 3px;
+	margin: 0 auto;
+	background: #F1F1F1;
+
+}
+
+.about-img img, .about-link {
+	display: inline-block;
+	width: 177px;
+	height: 177px;
+	border-radius: 50%;
+ }
+
+.about-item {clear: both;
+margin-bottom: 60px;}
+
+.about-link {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font: bold 18px/34px Arial sans-serif;
+    background: #ffd507;
+	border: 7px solid #F1F1F1;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+
+}
+
+#team {
+	text-align: center;
+	background: #F1F1F1;
+	height: 500px;
+}
+.team-item{
+	float: left;
+	width: 30%;
+	padding: 0 10px;
+}
+.team-item img {
+  margin-bottom: 15px;
+	border-radius: 50%;
+
+}
+
+.cat {
+	font: 14px/14px Arial,sant-serif;
+	color: #777;
+}
+.social{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.social a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 3px;
+	border: 3px solid #222;
+	background: url(images/soс-sprites.png) no-repeat;
+	border-radius: 50%;
+
+}
+.social a.icon-tw {
+background-position: 0 0;
+}
+
+.social a.icon-tw:hover {
+	background-position: 0 -40px;
+	border-color: #00aced;
+	background-color: #00aced;
+}
+.social a.icon-tw.black {
+    background-position: 0 -40px;
+}
+
+.social a.icon-fb {
+	background-position: -40px 0;
+}
+.social a.icon-fb:hover {
+	background-position: -40px -40px;
+	border-color: #3b5998;
+	background-color: #3b5998;
+}
+.social a.icon-pn {
+	background-position: -80px 0;
+}
+.social a.icon-pn:hover {
+	background-position: -80px -40px;
+	border-color: #cb2028;
+	background-color: #cb2028;
+}
+.social a.icon-gl {
+	background-position: -120px 0 ;
+}
+.social a.icon-gl:hover {
+	background-position: -120px -40px;
+	border-color: #d95232;
+	background-color: #d95232;
+}
+
+#brand {
+
+	text-align: center;
+	margin-bottom: 60px;
+    padding-top: 80px;
+}
+#brand a {
+	display: inline-block;
+	margin-right: 40px;
+}
+#brand img {vertical-align: middle}
+
+#contact {
+	text-align: center;
+	background: #222 url(back.png) no-repeat right bottom;
+	height: 500px;
+}
+#contact h2.title { color: #fff;}
+
+/*#massage.left,
+#massage.right { width: 78%;}*/
+
+
+#massage input[type="text"],
+#massage textarea {
+    width: 100%;
+	/*padding: 15px 20px;*/
+	box-shadow: none;
+	margin-bottom: 30px;
+    background: #FFF;
+	border-radius: 4%;
+	resize: none;
+}
+#massage input[type="text"] {
+     height: 50px;
+	border: 1px solid #ccc;
+
+}
+#massage textarea {border: none;
+height: 220px;
+	width: 400px;
+}
+
+#copy {
+    padding: 25px 0;
+}
+
+#copy .social {
+margin-top: 0;
+margin-left: 365px;
+
+}
+#copy p{
+    margin-top: 15px;
+    font: 14px/14px Arial, sans-serif;
+    color: #555;
+
+}
+#contact .btn
+{
+	display: inline-block;
+	margin-left: 50%;
+}
